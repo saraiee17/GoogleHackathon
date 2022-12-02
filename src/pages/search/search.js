@@ -25,7 +25,7 @@ function Search(){
                 <img className='x'src={x} alt='x'/>
             </div>
             <img src={undernav} alt='undernav'/>
-            <img className='search__map' src={map}/>
+            <img className='search__map' src={map} alt='/'/>
             <button onClick={handleEdit} className='search__button'><img className='search__button--img' src={coffeeshop} alt='coffeeshop'/></button>
             <img className='search__underbutton' src={second} alt='second'/>
         </div>

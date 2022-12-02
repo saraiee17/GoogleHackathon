@@ -27,7 +27,7 @@ function Home(){
                 </div>  
                 <div className='search-container'>
                     <form onSubmit={() => (navigate('/search'))} className='link'>
-                        <input  className='search' type="text" placeholder='Search here' />
+                        <input  className='searchbar' type="text" placeholder='Search here' />
                     </form>
                     
 
