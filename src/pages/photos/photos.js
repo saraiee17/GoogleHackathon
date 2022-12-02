@@ -12,7 +12,6 @@ import four from '../../assets/photos/button4.svg';
 import add from '../../assets/photos/add.svg';
 import footer from '../../assets/photos/footer.svg';
 
-
 function Photos(){
 
     return(

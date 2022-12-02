@@ -1,5 +1,6 @@
 import './coffeeshop.scss';
-import { useState, useNavigate } from 'react';
+import { useState } from 'react';
+import {useNavigate} from 'react-router-dom'
 import mainPage from '../../assets/coffeeshopIcon/Coffee_Shop_Details.png';
 import Modal from '../modal/modal';
 
@@ -18,14 +19,11 @@ function Coffeeshop(){
         document.body.style.overflow = 'unset';
     }
 
-
-
-
     return(
         <div className='coffeeContainer'>
             <Modal onClose={closeModal} show={show}/>
             <img className='mainPic' src={mainPage} alt="" />
-            <button onClick={() => navigate('/coffeeshop/photos')} className='photos'></button>
+            <button onClick={() => navigate('/coffeeshop/photos')} className='photosNav'></button>
             <button onClick={() => handleClick(true)} className='more'></button>
         </div>
     )

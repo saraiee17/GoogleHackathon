@@ -12,8 +12,8 @@ import {useNavigate} from "react-router-dom";
 
 function Search(){
     const navigate = useNavigate();
-    const handleEdit = (e) => {
-        e.preventDefault();
+    const handleEdit = () => {
+        // e.preventDefault();
         navigate(`/coffeeshop`);
       };
 
