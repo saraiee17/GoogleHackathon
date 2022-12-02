@@ -1,0 +1,20 @@
+@use '../../styles/colors';
+@use '../../styles/mixins';
+@use '../../styles/fonts';
+
+.photos{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    &__buttons{
+        display: flex;
+        object-fit: contain;
+    }
+    &__flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__add{
+        max-width: 150px;
+    }
+}
