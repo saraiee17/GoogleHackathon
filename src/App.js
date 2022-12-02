@@ -3,7 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/home/home';
 import Search from './pages/search/search';
 import Coffeeshop from './pages/coffeeshop/coffeshop';
-import Photos from './pages/photos/photos'
+import Photos from './pages/photos/photos';
+import Header from './components/header/header';
 
 function App() {
   return (
