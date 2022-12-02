@@ -1,0 +1,110 @@
+
+.modalContainer{ 
+    z-index: 5341324;
+    position:fixed;
+    max-height: 100%;
+    background-color: white;
+    // max-height: calc(100vh - 10px);
+    overflow-y: auto;
+    width: 100%;
+
+}
+
+.navbar {
+    width: 100%;
+
+    &-image {
+        width: 100%;
+    }
+}
+
+.closeModal {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 2rem;
+}
+
+.mainTitle {
+    padding: 0 2rem;
+    font-weight: 400;
+}
+
+.mainDesc {
+    padding: 0 2rem;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #717171;
+}
+
+.text2speech {
+    display: flex;
+    padding: 0 2rem;
+
+    &-icon {
+        padding-right: 1rem;
+    }
+}
+
+.entry {
+    padding: 0 2rem;
+    border-top: 1px solid #63666A;
+
+    &-title {
+        font-weight: 400;
+    }
+
+    &-div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #717171;
+        font-size: 0.9rem;    
+    }
+}
+
+.cafe {
+    padding: 0 2rem;
+    border-top: 1px solid #63666A;
+
+    &-title {
+        font-weight: 400;
+    }
+}
+
+.pets {
+    padding: 0 2rem;
+    border-top: 1px solid #63666A;
+    border-bottom: 1px solid #63666A;
+
+    &-title {
+        font-weight: 400;
+    }
+}
+
+.Photos {
+    display: flex;
+    color: #3871E0;
+    font-weight: 400;
+    justify-content: center;
+
+    &-title {
+        font-weight: 400;
+        padding-right: 1rem;
+    }
+}
+
+.view {
+    display: flex;
+    color: #3871E0;
+    font-weight: 400;
+    justify-content: center;
+
+    &-title {
+        font-weight: 400;
+        padding-right: 1rem;
+    }
+}
+
+.footerimg{
+    width: 100%;
+}
