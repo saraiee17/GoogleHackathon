@@ -34,9 +34,13 @@
       background-image: url('../../assets/search/MAP.png');
       background-size: auto;
       height: 100vh;
-      // width: 100vh;
       background-repeat: no-repeat;
       background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 500px;
     }
     &__button{
       border:none;
@@ -66,8 +70,6 @@
     color: gray;
     position: relative;
     right: 2rem;
-    // left: 20rem;
-    // bottom: 1.5rem;
   }
 
   .tune{

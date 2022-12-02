@@ -20,15 +20,6 @@ function Search(){
                 <img className='x'src={x} alt='x'/>
             </div>
             <img src={undernav} alt='undernav'/>
-            {/* <div className='search__underbar'>
-                <div class="material-symbols-outlined tune">tune</div>
-                <p className='search__boxes'>Sort by </p>
-                <div class="material-symbols-outlined arrow">arrow_drop_down</div>
-                <p className='search__boxes'>Open now</p>
-                <p className='search__boxes'>Price </p>
-                <div class="material-symbols-outlined arrow">arrow_drop_down</div>
-                <p className='search__boxes'>Top Rated</p>
-            </div> */}
             <div className='search__map'></div>
             <Link to='/coffeeshop'><button className='search__button'><img className='search__button' src={coffeeshop} alt='coffeeshop'/></button></Link>
             <img className='search__underbutton' src={second} alt='second'/>
