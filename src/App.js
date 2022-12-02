@@ -1,10 +1,17 @@
-import logo from './logo.svg';
 import './App.scss';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './pages/home/home';
+import Header from './components/header/header';
 
 function App() {
   return (
     <div className="App">
-      <h1>Google Hackathon</h1>
+      <BrowserRouter>
+      <Header/>
+        <Routes>
+          <Route path="/" element={<Home/>} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
