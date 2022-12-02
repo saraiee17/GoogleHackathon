@@ -1,4 +1,4 @@
-import './coffeshop.scss';
+import './coffeeshop.scss';
 
 function Coffeeshop(){
 
