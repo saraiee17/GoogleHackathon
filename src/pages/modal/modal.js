@@ -7,7 +7,7 @@ import check from '../../assets/modal/check.svg';
 import right from '../../assets/modal/rightArrow.svg';
 import up from '../../assets/modal/upArrow.svg';
 import footer from '../../assets/modal/GestureNavigation.svg';
-import {useNavigate} from 'react'
+import {useNavigate} from 'react-router-dom'
 
 
 
