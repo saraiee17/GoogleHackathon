@@ -3,7 +3,7 @@ import './coffeeshop.scss';
 function Coffeeshop(){
 
     return(
-        <div>
+        <div className='coffeeContainer'>
         
         </div>
     )
