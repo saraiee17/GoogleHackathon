@@ -64,6 +64,7 @@ function Modal( { onClose, show}){
                 <h2 className='cafe-title'>Cafe Accessibility</h2>
                 <div className='entry-div'>
                     <p>Wheelchair-Accesible Seating</p>
+                    <img src={check} alt="" />
                 </div>
                 <div className='entry-div'>
                     <p>Wheelchair-Accesible Washroom</p>
@@ -98,8 +99,8 @@ function Modal( { onClose, show}){
                 </div>
             </div>
             <div className='Photos'>
-                <h3 onClick={() => navigate('/coffeeshop/photos')} className='Photos-title'>Photos of Our Accessibility</h3>
-                <img src={right} alt="" />
+                <h3 onClick={() => navigate('/coffeeshop/photos')} className='Photos-title'>Accessibility Photos</h3>
+                {/* <img src={right} alt="" /> */}
             </div>
             <div className='view' onClick={handleSubmit}>
                 <p className='view-title'>View less</p>
