@@ -7,10 +7,12 @@ import check from '../../assets/modal/check.svg';
 import right from '../../assets/modal/rightArrow.svg';
 import up from '../../assets/modal/upArrow.svg';
 import footer from '../../assets/modal/GestureNavigation.svg';
+import {useNavigate} from 'react'
 
 
 
 function Modal( { onClose, show}){
+    const navigate = useNavigate();
 
     if (!show) {
         return null
@@ -96,7 +98,7 @@ function Modal( { onClose, show}){
                 </div>
             </div>
             <div className='Photos'>
-                <h3 className='Photos-title'>Photos of Our Accessibility</h3>
+                <h3 onClick={() => navigate('/coffeeshop/photos')} className='Photos-title'>Photos of Our Accessibility</h3>
                 <img src={right} alt="" />
             </div>
             <div className='view' onClick={handleSubmit}>
