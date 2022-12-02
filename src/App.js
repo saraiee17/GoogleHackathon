@@ -1,13 +1,14 @@
 import './App.scss';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/home/home';
-import Header from './components/header/header';
+import Search from './pages/search/search';
+import Coffeeshop from './pages/coffeeshop/coffeshop';
+import Photos from './pages/photos/photos'
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <Header/>
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/search" element={<Search/>} />

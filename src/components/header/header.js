@@ -1,10 +1,11 @@
 import './header.scss';
+import topBar from '../../assets/statusbar.png'
 
 
 function Header(){
     return(
         <div>
-        <h1>Google Hackathons</h1>
+            <img src={topBar} alt="" />
         </div>
     )
 }
