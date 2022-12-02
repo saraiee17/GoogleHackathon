@@ -21,7 +21,7 @@ function Search(){
         <div className='search'>
             <img className='search__header'src={nav} alt='time and battery'/>
             <div className='search__bardiv'>
-                <input className='search__bar'type='text'id="search" name="search" placeholder="Search"/>
+                <input className='search__bar'type='text'id="search" name="search" placeholder="coffee shop"/>
                 <img className='x'src={x} alt='x'/>
             </div>
             <img src={undernav} alt='undernav'/>
