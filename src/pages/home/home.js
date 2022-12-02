@@ -12,6 +12,7 @@ import group from '../../assets/Group.svg'
 import location from '../../assets/location.svg';
 import directions from '../../assets/directions.svg'
 import footer from '../../assets/footer.svg'
+import guy from '../../assets/Guy.svg'
 
 
 
@@ -27,7 +28,7 @@ function Home(){
                 </div>  
                 <div className='search-container'>
                     <form onSubmit={() => (navigate('/search'))} className='link'>
-                        <input  className='search' type="text" placeholder='Search here' />
+                        <input  className='searchbar' type="text" placeholder='Search here' />
                     </form>
                     
 
@@ -54,6 +55,8 @@ function Home(){
                     </div>
                 </div>
             </div>
+
+            <img src={guy} alt="/" />
 
             <div className='footerContainer'>
                 <div className='location'>
