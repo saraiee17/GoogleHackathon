@@ -1,3 +1,14 @@
+Industry challenge organized by BrainStation and Google, to improve accessibility to a google service.
+
+we were challenged to increase accessibility to current services by empowering communities through access to information, education,digital tools.
+
+Working in collaboration with teams of UX Designers, Data Scientists, and Web-Developers we designed and build an extension to show extended accessibility features for businesses on google maps
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
